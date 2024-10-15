@@ -1,0 +1,55 @@
+.logo {
+    filter: drop-shadow(3px 6px 2px rgb(0 0 0 / 0.4));
+}
+
+.nav-shadow {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.brand-text {
+    margin: auto;
+    color: #ba9f9f !important;
+    filter: drop-shadow(3px 6px 2px rgb(0 0 0 / 0.4));
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #3e2424;
+    border: 1px solid #472727;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #d55959;
+}
+
+select optgroup {
+    background-color: #403434 !important;
+    color: #ff9a9a !important;
+}
+
+select option {
+    background-color: #352b2b !important;
+    color: #ffe2e2 !important;
+}
+
+select option:checked {
+    background-color: #d55959 !important;
+    color: #ffffff !important;
+}
+
+:root {
+    --background-color: hsl(0, 0%, 100%);
+    --text-color: hsl(0, 0%, 25%);
+    --green: hsl(129, 73%, 61%);
+    --red: hsl(4, 100%, 67%);
+    --gray: hsl(0, 0%, 50%);
+    --link-color: hsl(210, 100%, 45%);
+    --link-underline-color: hsla(210, 90%, 50%, 0.3);
+    --new-color: hsl(15, 90%, 50%);
+}
+
