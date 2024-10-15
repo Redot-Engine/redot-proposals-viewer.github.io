@@ -36,7 +36,7 @@ jobs:
           ./build.py
           # Deploy all the files we need in the generated site to the `dist/` folder.
           mkdir -p dist/
-          cp -r css/ js/ assets/ proposals.json  index.html favicon.svg dist/
+          cp -r css/ js/ assets/ proposals.json  index.html favicon.png CNAME dist/
           ls -la dist/*
 
       - name: Minify files

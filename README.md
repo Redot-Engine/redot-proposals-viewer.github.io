@@ -1,6 +1,6 @@
 # Redot proposals viewer
 
-View the current Godot proposals in a convenient way.
+View the current Redot proposals in a convenient way.
 
 ## How it works
 
@@ -29,7 +29,9 @@ Follow these instructions to set up this site locally for development purposes:
 
 ## License
 
-Copyright © 2020-2022 Hugo Locurcio and contributors
+Copyright © 2020-2022 Hugo Locurcio and contributors 
+
+Copyright © 2024-present Redot Engine contributors
 
 Unless otherwise specified, files in this repository are licensed under the
 MIT license. See [LICENSE.md](LICENSE.md) for more information.
