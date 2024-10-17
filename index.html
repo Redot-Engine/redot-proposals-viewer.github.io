@@ -269,7 +269,7 @@
                  */
                 formatProposalTitle(title) {
                     // Escape HTML.
-                    const titleEscaped = title.replace(/&/g, "&amp;").replace(/ < /g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+                    const titleEscaped = title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;").replace(/`/g, "&#096;");
                     if (titleEscaped.includes("`")) {
                         let isInCodeTag = false;
                         return Array.prototype.map.call(titleEscaped, (character) => {
